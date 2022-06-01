@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@font-face {
+    font-family: 'GoodTimes';
+    src: url(../fonts/good\ times\ rg.otf)
+}
+
+h1 {
+    font-family: 'Good Times';
+}
+
+a {
+    color: #FF0B53;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.background-blue {
+    background-color: #1F2228;
+    padding: 100px 0;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../image/background-home.jpg);
+    background-size: cover;
+    background-position: right;
+    background-position-x: 60px;
+    background-repeat: no-repeat;
+}
+
+.background-register {
+    background-color: #1F2228;
+    padding: 100px 0;
+    background-image: url(../image/background-register.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-x: -120px;
+    background-attachment: fixed;
+}
+
+.tapp-logo {
+    margin-bottom: 100px;
+}
+
+.tapp-logo img {
+    width: 50%;
+    display: block;
+}
+
+.tapp-logo-register {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tapp-logo-register img {
+    width: 50%;
+    display: block;
+}
+
+.tapp-text1 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 48px;
+}
+
+.tapp-text1 span {
+    color: #FF0B53;
+}
+
+.tapp-text-register1 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 48px;
+    text-align: right;
+}
+
+.tapp-text-register1 span {
+    color: #FF0B53;
+}
+
+.tapp-text2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    margin: 24px auto;
+}
+
+.tapp-text3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 12px;
+}
+
+.nav-redes-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 0;
+}
+
+.icon-redes {
+    margin: 0 12px;
+}
+
+
+/* FORM */
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 24px;
+    border-radius: 12px;
+    border: 3px solid #FF0B53;
+    margin-bottom: 24px;
+}
+
+.tapp-icon {
+    display: block;
+    margin-right: 12px;
+}
+
+.input-field {
+    border: none;
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit {
+    background-color: #FF0B53;
+    padding: 12px 48px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+
+/* END FORM */
+
+
+/* FORM REGISTER*/
+
+.register-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-container-register {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 24px;
+    border-radius: 12px;
+    border: 3px solid #FF0B53;
+    margin-bottom: 24px;
+    width: 90%;
+}
+
+.input-field-register {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.submit-container-register {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit-register {
+    background-color: #FF0B53;
+    padding: 12px 48px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+    border-radius: 12px;
+    text-transform: uppercase;
+    display: block;
+    width: 90%;
+}
+
+
+/* END FORM */
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .background-blue {
+        background-position-x: -100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .background-blue {
+        background-position-x: -200px;
+    }
+    .background-register {
+        background-position-x: -500px;
+    }
+    .tapp-logo img {
+        width: 60%;
+    }
+    .tapp-logo-register img {
+        width: 60%;
+    }
+    .tapp-text1 {
+        font-size: 28px;
+    }
+    .tapp-text2 {
+        font-size: 15px;
+    }
+    .tapp-text3 {
+        font-size: 17px;
+    }
+    .input-container {
+        width: 95%;
+    }
+    .input-container-register {
+        width: 95%;
+    }
+    .submit-container {
+        width: 95%;
+    }
+    .submit-container-register {
+        width: 95%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .background-blue {
+        overflow: auto;
+        background-image: url(../image/background-mobile.jpg);
+        background-position: right;
+    }
+    .background-register {
+        overflow: auto;
+        background-image: url(../image/background-register-mobile.jpg);
+        background-position: right;
+    }
+    .tapp-logo img {
+        margin: auto;
+    }
+    .tapp-logo-register img {
+        margin: auto;
+    }
+    .tapp-text1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .tapp-text-register1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .submit-container {
+        justify-content: center;
+    }
+    .submit-container-register {
+        justify-content: center;
+    }
+    .btn-submit {
+        width: 100%;
+    }
+    .input-container-register {
+        width: 100%;
+    }
+    .btn-submit-register {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .background-blue {
+        background-image: url(../image/background-register-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .background-register {
+        overflow: auto;
+        background-image: url(../image/background-register-mobile.jpg);
+        background-position: right;
+    }
+    .tapp-logo img {
+        margin: auto;
+        width: 60%;
+    }
+    .tapp-logo-register {
+        margin-bottom: 48px;
+    }
+    .tapp-logo-register img {
+        margin: auto;
+        width: 60%;
+    }
+    .tapp-text1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .tapp-text-register1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .submit-container {
+        justify-content: center;
+    }
+    .submit-container-register {
+        justify-content: center;
+    }
+    .btn-submit {
+        width: 100%;
+    }
+    .input-container-register {
+        width: 100%;
+    }
+    .btn-submit-register {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .tapp-text1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .tapp-text-register1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .tapp-text2 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+}
